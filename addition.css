@@ -1,0 +1,43 @@
+body
+	{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		margin: 100px;
+	}
+	#first,#second
+	{
+		font-size: 25px;
+		border: 2px solid #28B463;
+		padding: 5px 20px;
+		margin: 0px 10px;
+		font-weight: bold;
+	}
+	#plus,#equal
+	{
+		font-size: 35px;
+		font-weight: bold;
+		padding: 5px;
+	}
+	#guess
+	{
+		font-size: 20px;
+		outline: none;
+		margin: 5px;
+		font-weight: bold;
+	}
+	button
+	{
+		font-size: 20px;
+		outline: none;
+		border: none;
+		background: #EB984E;
+		padding: 2px 25px;
+		border-radius: 25px;
+		cursor: pointer;
+
+	}
